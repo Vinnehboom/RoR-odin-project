@@ -72,3 +72,4 @@ class CarsController < ApplicationController
       params.require(:car).permit(:make, :model, :year)
     end
 end
+x
